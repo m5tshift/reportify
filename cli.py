@@ -7,7 +7,7 @@ from utils.typst_module import save, compile
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        prog="reportify", description="cli tool for report generation", epilog="usage"
+        prog="reportify", description="cli tool for report generation"
     )
 
     parser.add_argument("author")
